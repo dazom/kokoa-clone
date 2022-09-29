@@ -4,7 +4,7 @@
   width: 100%;
   background-color: #f9f9fa;
   padding: 20px 0px;
-  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  border-top: var(--main-border);
 }
 
 .nav__list {
@@ -18,27 +18,12 @@
 }
 
 .nav__notification {
-  width: 20px;
-  height: 20px;
-  background-color: tomato;
-  color: white;
-  border-radius: 10px;
-  font-weight: 600;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   position: absolute;
-  left: 25px;
-  bottom: 25px;
+  left: 20px;
+  bottom: 18px;
 }
 
 .nav__mark {
-  background-color: tomato;
-  width: 5px;
-  height: 5px;
-  border-radius: 2.5px;
-  display: flex;
-  justify-content: center;
   position: absolute;
   left: 30px;
   bottom: 30px;
