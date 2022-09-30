@@ -3,7 +3,6 @@
   justify-content: space-between;
   align-items: center;
   padding: var(--horizontal-space);
-  margin-bottom: 15px;
 }
 
 .screen-header__mark {
@@ -20,4 +19,17 @@
 .screen-header__icons span {
   margin-left: 25px;
   position: relative;
+}
+
+@keyframes rotateGear {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+.screen-header__icons .fa-gear:hover {
+  animation: rotateGear 1s linear infinite;
 }

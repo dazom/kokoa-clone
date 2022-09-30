@@ -42,6 +42,16 @@
   color: rgba(0, 0, 0, 0.5);
 }
 
+.user-component__subtitle-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-component__subtitle-group i {
+  margin-left: 10px;
+  color: tomato;
+}
 .user-component__time {
   display: block;
   margin-bottom: 10px;
