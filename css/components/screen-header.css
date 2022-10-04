@@ -31,5 +31,37 @@
 }
 
 .screen-header__icons .fa-gear:hover {
-  animation: rotateGear 1s linear infinite;
+  animation: rotateGear 2s linear infinite;
+}
+
+@keyframes jumpMusic {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: none;
+  }
+}
+
+.screen-header__icons .fa-music:hover {
+  animation: jumpMusic 1s linear infinite;
+}
+
+@keyframes shineGlass {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: scale(1.3);
+  }
+  100% {
+    transform: none;
+  }
+}
+
+.screen-header__icons .fa-magnifying-glass:hover {
+  animation: shineGlass 1s linear infinite;
 }
